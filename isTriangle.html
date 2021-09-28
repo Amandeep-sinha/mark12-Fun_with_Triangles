@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Triangles</title>
+    <link rel="stylesheet" href="/triangle.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="header">
+          <a href="/index.html">
+            Fun With Triangles
+          </a>
+        </h1>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item" id="quiz">
+                    <a href="/quiz.html" class="nav-link">Quiz</a>
+                </li>
+                <li class="nav-item" id="hypotenuse">
+                    <a href="/hypotenuse.html" class="nav-link">Hypotenuse</a>
+                </li>
+                <li class="nav-item" id="area">
+                    <a href="/area.html" class="nav-link">Area</a>
+                </li>
+                <li class="nav-item" id="triangle">
+                    <a href="/isTriangle.html" class="nav-link">isTriangle</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <h2>Angles of Triangle</h2>
+        <form action="" id="form">
+          <label for="angle1">Angle 1 : </label>
+          <input type="number" name="angle1" />
+          <label for="angle2">Angle 2 : </label>
+          <input type="number" name="angle2" />
+          <label for="angle3">Angle 3 : </label>
+          <input type="number" name="angle3" />
+          <button type="submit">Is Triangle?</button>
+        </form>
+  
+        <h2 id="result"></h2>  
+    </div>
+    <script src="/triangles.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+    background-color:#C9CCD5;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    font-weight:bold
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+.header{
+    text-align: center;
+    background-color:#E4D8DC;
+    border-bottom: 1px solid black;
+}
+
+.navbar{
+    text-align: center;
+    padding:1rem;
+}
+
+.nav-item{
+    padding: 1em;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color:#072166;
+}
+
+.home {
+
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: black;
+}
+
+#quiz a{
+    color:#072166;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #C9CCD5;
+  }
+
+.bx1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8em;
+    padding: 0.5em;
+    text-align: center;
+    color: black ;
+  }
+  
+  form {
+    width: 75%;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    background-color: #457b9d;
+    padding: 1em;
+    border-radius: 0.6em;
+  }
+  
+  form p {
+    text-align: left;
+    margin-top: 0.7em;
+    color: black;
+    font-size:1.5rem;
+  }
+  
+  .bx2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    font-size:1.5rem;
+  }
+  
+  .bx2 label {
+    margin-bottom: 1em;
+    color: black;
+  }
+  
+  #submit {
+    padding: 0.4em 0.8em;
+    margin: 2em 1em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.5em;
+    margin: auto;
+  }
+  
+  #reset {
+    padding: 0.4em 0.8em;
+    margin: 2em 1em;
+    background-color: #457b9d;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 0.4em;
+  }
+  
+  #score {
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    color: black;
+    font-size: 1.8em;
+  }

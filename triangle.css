@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+    background-color:#C9CCD5;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    font-weight:bold
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+.header{
+    text-align: center;
+    background-color:#E4D8DC;
+    border-bottom: 1px solid black;
+}
+
+.navbar{
+    text-align: center;
+    padding:1rem;
+}
+
+.nav-item{
+    padding: 1em;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color:#072166;
+}
+
+.home {
+
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: black;
+}
+
+#triangle a{
+    color:#072166;
+    text-decoration: underline;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1.4em;
+    padding: 1em 1.4em;
+    text-align: center;
+    background-color: #457b9d;
+    border-radius: 1em;
+}
+
+form label{
+    font-size:1.5rem;
+}
+
+form input {
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+  
+form button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
